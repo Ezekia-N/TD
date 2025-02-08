@@ -4,7 +4,6 @@ premier entre eux ou non*/
 int main()
 {
     int n1, n2, r, a1, a2;
-
     printf("Entrez le premier nombre : ");
     scanf("%d", &n1);
     printf("Entrez le second nombre : ");
