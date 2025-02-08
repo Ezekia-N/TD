@@ -1,0 +1,10 @@
+Algorithme Nombres entiers de 1 jusqu'à n où n est saisi au clavier
+Variable n, i : entier
+Debut
+    ecrire("Entrez un nombre entier naturel : ");
+    lire(n);
+    ecrire("Les nombres de 1 jusqu'à ",n," sont : ");
+    Pour(i<-1; i<=n; i<-i+1)
+            ecrire(i);
+    FinPour
+Fin

@@ -1,0 +1,14 @@
+Algorithme Maximum entre trois valeurs saisies au clavier
+Variable i : entier ;
+         max, n : reel;
+Debut
+    ecrire("Entrez le nombre numéro 1 : ");
+    lire(max);
+    Pour(i<-2; i<=3; i<-i+1)
+        ecrire("Entrez le nombre numéro ",i);
+        lire(n);
+        Si n > max alors 
+            max <- n ;
+        FinSi
+    FinPour
+Fin

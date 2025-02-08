@@ -1,0 +1,17 @@
+Algorithme PGCD(a;b)
+Variable a, b, r, a1, b1 : entier
+Debut
+    ecrire("PGCD(a;b)");
+    ecrire("Entrez a = ");
+    lire(a);
+    ecrire("Entrez b = ");
+    lire(b);
+    a1 <- a;
+    b1 <- b;
+    Faire
+        r <- a%b;
+        a <- b;
+        b <- r;
+    TantQue(r <> 0);
+    ecrire("PGCD(",a1,";",b1,") = ",a);
+Fin 

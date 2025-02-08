@@ -1,0 +1,11 @@
+Algorithme Multiplication P = 1 * 2 * ... * n ou n est saisi au clavier
+Variable i, n , pro : entier
+Debut
+    ecrire("Entrez un nombre entier naturel : ");
+    lire(n);
+    pro <- 1 ;
+    Pour(i<-1; i<=n; i<-i+1)
+        pro <- pro * i ;
+    FinPour
+    ecrire("P = ",pro);
+Fin

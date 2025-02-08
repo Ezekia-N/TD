@@ -1,0 +1,12 @@
+Algorithme Somme S = 1 + 10 + 10^2 ... + 10^n ou n est saisi au clavier
+Variable n, i: entier ;
+         som : reel ;
+Debut
+    ecrire("Entrez un nombre entier naturel : ");
+    lire(n);
+    som <- 0 ;
+    Pour(i<-1; i<=n; i<-i+1)
+        som <- som + (10^i) ;
+    FinPour
+    ecrire("S = ",som);
+Fin

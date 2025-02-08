@@ -1,0 +1,18 @@
+Algorithme Echange de valeurs entre trois variables a, b, c
+Variable a, b, c, d : entier
+Debut 
+    ecrire("Entrez trois valeurs : ");
+    ecrire("a = ");
+    lire(a);
+    ecrire("b = ");
+    lire(b);
+    ecrire("c = ");
+    lire(c);
+    d <- a;/*d vaut a*/
+    a <- b;/*a vaut b*/
+    b <- c;/*b vaut c*/
+    c <- d;/*c vaut d*/
+    ecrire("a devient ",a);
+    ecrire("b devient ",b);
+    ecrire("c devient ",c);
+Fin

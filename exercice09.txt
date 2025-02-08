@@ -1,0 +1,12 @@
+Algorithme Nombre pair compris entre 1 et n où n est saisi au clavier 
+Variable n, i : entier
+Debut
+    ecrire("Entrez un nombre entier naturel : ");
+    lire(n);
+    ecrire("Les nombres pairs compris entre 1 et ",n," sont : ");
+    Pour(i<-1; i<=n; i<-i+1)
+        Si i%2 = 0 alors 
+            ecrire(i);
+        FinSi
+    FinPour
+Fin

@@ -1,0 +1,18 @@
+Algorithme Deux entiers premier entre eux ou non
+Variable n1, n2, r : entier
+Debut
+    ecrire("Entrez le premier nombre : ");
+    lire(n1);
+    ecrire("Entrez le second nombre : ");
+    lire(n2);
+    Faire
+        r <- n1%n2;
+        n1 <- n2;
+        n2 <- r;
+    TantQue(r <> 0);
+    Si n1 = 1 alors
+        ecrire("Ces deux nombres sont premier entre eux");
+        sinon 
+            ecrire("Ces deux nombres ne sont pas premier entre eux");
+    FinSi    
+Fin 

@@ -1,0 +1,14 @@
+Algorithme Demande un nombre à l'utilisateur et l'informe en suite si ce nombre est positif ou négatif ou nul
+Variable n : reel
+Debut
+    ecrire("Entrez un nombre : ");
+    lire(n);
+    Si n < 0 alors
+        ecrire(n," est négatif");
+        Sinon Si n > 0 alors
+            	ecrire(n," est positif");
+            	Sinon
+                	ecrire(n," est nul");
+              FinSi 
+    FinSi
+Fin

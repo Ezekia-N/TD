@@ -1,0 +1,11 @@
+Algorithme Factoriel de n ou n est saisi au clavier
+variable n, i, fact : entier
+Debut
+    ecrire("Entrez un nombre entier naturel : ");
+    lire(n);
+    fact <- 1 ;
+    Pour(i<-1; i<=n; i<-i+1)
+        fact <- fact * i;
+    FinPour
+    ecrire(n,"! = ",fact);
+Fin

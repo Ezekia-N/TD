@@ -1,0 +1,17 @@
+Algorithme Moyenne de deux notes avec leur coefficient saisies au clavier
+Variable n1, n2, c1, c2, moy : reel
+Debut
+    Faire 
+        ecrire("Les deux doivent être compris entre 0 à 20");
+        ecrire("Entrez la première note : ");
+        lire(n1);
+        ecrire("Entrez son coefficient : ");
+        lire(c1);
+        ecrire("Entrez la deuxième note : ");
+        lire(n2);
+        ecrire("Entrez son coefficient : ");
+        lire(c2);
+    TantQue (n1 < 0 OU n1 > 20 OU n2 < 0 OU n2 > 20);
+    moy <- (n1*c1+n2*c2)/(c1+c2);
+    ecrire("La moyenne est ",moy );
+Fin    

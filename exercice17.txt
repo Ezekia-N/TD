@@ -1,0 +1,16 @@
+Algorithme Somme S = 1/1! + 1/2! + ... + 1/n! ou n est saisi au clavier
+Variable n, i, j : entier ;
+         som, fact : reel ;
+Debut
+    ecrire("Entrez un nombre entier naturel : ");
+    lire(n);
+    som <- 0 ;
+    Pour(i<-1; i<=n; i<-i+1)
+        fact <- 1 ;
+        Pour(j<-1; j<=i; j<-j+1)
+            fact <- fact * j ;
+        FinPour
+        som <- som + (1/fact) ;
+    FinPour
+    ecrire("S = ",som);
+Fin

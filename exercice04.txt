@@ -1,0 +1,15 @@
+Algorithme Somme de deux notes saisies au clavier et leur moyenne
+Variable n1, n2, som, moy : reel
+Debut
+    Faire 
+        ecrire("Les deux notes doivent être compris entre 0 à 20");
+        ecrire("Entrez la première note : ");
+        lire(n1);
+        ecrire("Entrez la deuxième note : ");
+        lire(n2);
+    TantQue (n1 < 0 OU n1 > 20 OU n2 < 0 OU n2 > 20);
+    som <- n1 + n2 ;
+    moy <- som/2 ;
+    ecrire("La somme de ",n1," et de ",n2," est égale à ",som);
+    ecrire("Leur moyenne est ",moy );
+Fin    

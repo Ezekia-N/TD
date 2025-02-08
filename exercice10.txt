@@ -1,0 +1,12 @@
+Algorithme Diviseurs d'un entier n à saisir au clavier
+Variable n, i : entier
+Debut
+    ecrire("Entrez un nombre entier naturel : ");
+    lire(n);
+    ecrire("Les diviseurs de ",n," sont : ");
+    Pour(i<-1; i<=n; i<-i+1)
+        Si n%i = 0 alors 
+            ecrire(i);
+        FinSi
+    FinPour
+Fin
